@@ -1,6 +1,8 @@
 {
   "name": "Flamma",
   "description": "The Fearless Gladiator",
+  "repositry": "https://github.com/colinsauce/Flamma",
+  "license": "MIT License",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
