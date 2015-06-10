@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery Page</title>
+
+	<!-- CSS -->
+	<!-- load bootstrap and our own personal stylesheet -->
+	<link href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/superhero/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <a href="http://jquery.com/">jQuery</a>
+  <script src="jquery-2.1.4.min.js"></script>
+  <script>
+  $( document ).ready(function() {
+  $( "a" ).click(function( event ) {
+  alert( "As you can see, the link no longer took you to jquery.com" );
+  //$( this ).hide( "slow" );
+  event.preventDefault();
+  });
+  });
+</script>
+
+<!--<div class="container">
+  <div class="jumbotron">
+    <a href="http://jquery.com/">jQuery</a>
+    <script src="jquery.js"></script>
+    <script>
+      $( document ).ready(function() {
+        $( "a" ).click(function( event ) {
+        alert( "The link will no longer take you to jquery.com" );
+        //event.preventDefault();
+        });
+      });
+    </script>
+    </div>
+  </div>-->
+</body>
+</html>
