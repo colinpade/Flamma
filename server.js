@@ -22,6 +22,11 @@ app.get('/jQuery', function(req, res) {
   res.render('jquery');
 });
 
+app.get('/BootStrap', function(req, res) {
+  // ejs render automatically looks in the views folder
+  res.render('bootstrap');
+});
+
 app.listen(port, function() {
   console.log('Our app is running on http://localhost:' + port);
 });
