@@ -22,7 +22,6 @@ app.get('/jQuery', function(req, res) {
   res.render('jquery');
 });
 
-
 app.listen(port, function() {
   console.log('Our app is running on http://localhost:' + port);
 });
